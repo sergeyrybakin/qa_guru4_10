@@ -17,4 +17,7 @@ public interface WebConfig extends Config {
 
     @Key("search.site")
     String searchSite();
+
+    @Key("webdriver.remote")
+    String webdriverRemote();
 }
