@@ -31,7 +31,8 @@ public class TestSelenideSearchingGoogle {
                 Configuration.browserCapabilities = capabilities;
                 Configuration.remote = System
                         .getProperty("remote_driver");
-                //Configuration.remote = ConfigHelper.getWebdriverRemote(); //"https://user1:1234@selenoid.autotests.cloud:4444/wd/hub";
+                //TODO Configuration.remote = ConfigHelper.getWebdriverRemote(); //"https://user1:1234@selenoid.autotests.cloud:4444/wd/hub";
+                //TODO Why Telegram bot doesn't work?
             }
         }
 
