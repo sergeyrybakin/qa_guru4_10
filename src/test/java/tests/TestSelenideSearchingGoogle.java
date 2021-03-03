@@ -29,9 +29,9 @@ public class TestSelenideSearchingGoogle {
                 capabilities.setCapability("enableVNC", true);
                 capabilities.setCapability("enableVideo", true);
                 Configuration.browserCapabilities = capabilities;
-//                Configuration.remote = System
-//                        .getProperty("remote_driver"); //"https://user1:1234@selenoid.autotests.cloud:4444/wd/hub";
-                Configuration.remote = ConfigHelper.getWebdriverRemote();
+                Configuration.remote = System
+                        .getProperty("remote_driver");
+                //Configuration.remote = ConfigHelper.getWebdriverRemote(); //"https://user1:1234@selenoid.autotests.cloud:4444/wd/hub";
             }
         }
 
